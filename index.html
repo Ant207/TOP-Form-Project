@@ -9,38 +9,52 @@
 <body>
     <div id="main-container">
         <div id="sidebar">
-            <img src="form image.avif" alt="a fern backdrop">
-            <img src="odin.png.png" alt="The Odin Project Logo">
+            <img src="form image.avif" id="fern" alt="a fern backdrop">
+            <div id="logo-container">
+                <img src="odin.png.png" id="logo" alt="The Odin Project Logo">
+                <p>Odin</p>
+            </div>
+            <p id="credit">Photo by Halie West on Unsplash</p>
+            
         </div>
         <div id="main-content">
+            <div id="header">
             <h1>This is not a real online service! You know you need something like 
-                this in your life to help you realize your deepest dreams. Sign up now to get started.
+                this in your life to help you realize your deepest dreams. Sign up <em>now</em> to get started.
             </h1>
-            <p>You know you want to.</p>
-            <div id="form">
-
-                <p>Let's do this!</p>
-
-                <label for="first-name">FIRST NAME</label>
-                <input type="text" id="first-name" name="first-name" placeholder="Thor">
-
-                <label for="last-name">LAST NAME</label>
-                <input type="text" id="last-name" name="last-name" placeholder="Odinson">
-
-                <label for="user-email">EMAIL</label>
-                <input type="email" id="user-email" name="user-email">
-
-                <label for="phone-number">PHONE NUMBER</label>
-                <input type="tel" id="phone-number" name="phone-number">
-
-                <label for="user-password">PASSWORD</label>
-                <input type="password" id="user-password" name="password">
-
-                <label for="confirm-password">CONFIRM PASSWORD</label>
-                <input type="password" id="confirm-password" name="confirm-password">
+            <h1 id="header-two">You <em>know</em> you want to.</h1>
             </div>
-            <button>Create Account</button>       
-            <p>Already have an account? <a href="#">Log in</a></p>
+            <div id="form">
+                <p id="form-text">Let's do this!</p>
+                <div id="grid">
+                    <div class="field">
+                        <label for="first-name">FIRST NAME</label>
+                        <input type="text" id="first-name" name="first-name" placeholder="Thor">
+                    </div>
+                    <div class="field">
+                    <label for="last-name">LAST NAME</label>
+                    <input type="text" id="last-name" name="last-name" placeholder="Odinson">
+                    </div>
+                    <div class="field">
+                        <label for="user-email">EMAIL</label>
+                        <input type="email" id="user-email" name="user-email">
+                    </div>
+                    <div class="field">
+                        <label for="phone-number">PHONE NUMBER</label>
+                        <input type="tel" id="phone-number" name="phone-number">
+                    </div>
+                    <div class="field">
+                        <label for="user-password">PASSWORD</label>
+                        <input type="password" id="user-password" name="password">
+                    </div>
+                    <div class="field">
+                        <label for="confirm-password">CONFIRM PASSWORD</label>
+                        <input type="password" id="confirm-password" name="confirm-password">
+                    </div>
+                </div>
+            </div>
+            <button id="button">Create Account</button>       
+            <p id="account">Already have an account? <a href="#">Log in</a></p>
         </div>
     </div>
 </body>
